@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/too_small_size">
+    <android.support.v7.widget.SearchView
+        android:id="@+id/city_search_view"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="search city"
+        style="@style/Widget.AppCompat.Light.SearchView"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/city_search_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/city_search_view"/>
+
+</RelativeLayout>

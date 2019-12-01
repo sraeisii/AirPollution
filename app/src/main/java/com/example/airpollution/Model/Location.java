@@ -2,6 +2,27 @@ package com.example.airpollution.Model;
 
 public class Location {
     private int id;
+    private String name;
+    private String faName;
+    private String state;
+    private float latitute;
+    private float longitude;
+
+    public String getFaName() {
+        return faName;
+    }
+
+    public void setFaName(String faName) {
+        this.faName = faName;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
 
     public int getId() {
         return id;
@@ -19,6 +40,7 @@ public class Location {
         this.name = name;
     }
 
+
     public float getLatitute() {
         return latitute;
     }
@@ -35,8 +57,5 @@ public class Location {
         this.longitude = longitude;
     }
 
-    private String name;
-    private float latitute;
-    private float longitude;
 
 }
