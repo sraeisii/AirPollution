@@ -91,13 +91,52 @@ public class DatabaseOpenHelper extends SQLiteOpenHelper {
         db.insert( TABLE_NAME,null,cv );
         cv.clear();
         cv=new ContentValues(  );
+        cv.put( COL_NAME, "Arak" );
+        cv.put( COL_FA_NAME,"اراک");
+        cv.put( COL_STATE,"Markazi");
+        cv.put( COL_LATITUTE, 0.0 );
+        cv.put( COL_LONGITUDE, 0.0);
+        db.insert( TABLE_NAME,null,cv );
+        cv.clear();
+        cv=new ContentValues(  );
+        cv.put( COL_NAME, "Gorgan" );
+        cv.put( COL_FA_NAME,"گرگان");
+        cv.put( COL_STATE,"Golestan");
+        cv.put( COL_LATITUTE, 0.0 );
+        cv.put( COL_LONGITUDE, 0.0);
+        db.insert( TABLE_NAME,null,cv );
+        cv.clear();
+        cv=new ContentValues(  );
+        cv.put( COL_NAME, "Qazvin" );
+        cv.put( COL_FA_NAME,"قزوین");
+        cv.put( COL_STATE,"Qazvin");
+        cv.put( COL_LATITUTE, 0.0 );
+        cv.put( COL_LONGITUDE, 0.0);
+        db.insert( TABLE_NAME,null,cv );
+        cv.clear();
+        cv=new ContentValues(  );
+        cv.put( COL_NAME, "Qom" );
+        cv.put( COL_FA_NAME,"قم");
+        cv.put( COL_STATE,"Qom");
+        cv.put( COL_LATITUTE, 0.0 );
+        cv.put( COL_LONGITUDE, 0.0);
+        db.insert( TABLE_NAME,null,cv );
+        cv.clear();
+        cv=new ContentValues(  );
+        cv.put( COL_NAME, "Rasht" );
+        cv.put( COL_FA_NAME,"رشت");
+        cv.put( COL_STATE,"Gilan");
+        cv.put( COL_LATITUTE, 0.0 );
+        cv.put( COL_LONGITUDE, 0.0);
+        db.insert( TABLE_NAME,null,cv );
+        cv.clear();
+        cv=new ContentValues(  );
         cv.put( COL_NAME, "Mashhad" );
         cv.put( COL_FA_NAME,"مشهد");
         cv.put( COL_STATE,"Razavi Khorasan");
         cv.put( COL_LATITUTE, 0.0 );
         cv.put( COL_LONGITUDE, 0.0);
         db.insert( TABLE_NAME,null,cv );
-
 
     }
 

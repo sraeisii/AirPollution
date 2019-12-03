@@ -7,7 +7,6 @@
     android:layout_width="match_parent"
     android:layout_height="110dp"
     android:layout_margin="2dp"
-    app:strokeColor="@color/BabyBlue"
     app:cardCornerRadius="4dp"
     app:cardElevation="1dp"
     app:cardMaxElevation="2dp">
@@ -17,12 +16,12 @@
         android:layout_height="match_parent"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_margin="@dimen/too_small_size"
-        android:paddingRight="@dimen/normal_size">
+        android:paddingRight="@dimen/too_small_size">
 
         <ImageView
             android:id="@+id/city_pollution_level_img"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
              />
@@ -43,6 +42,7 @@
             android:layout_below="@+id/city_name_txt"
             android:layout_alignParentRight="true"
             android:layout_marginLeft="@dimen/small_size"
+            android:layout_marginRight="@dimen/too_small_size"
             android:layout_marginBottom="@dimen/too_small_size"
             android:textSize="15sp"
             android:text="شاخص کیفیت هوا" />
@@ -63,6 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/pollution_rate_txt"
             android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/too_small_size"
             android:layout_marginLeft="@dimen/small_size"
             android:textSize="12sp"
             android:text="دما" />
@@ -81,6 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/tp_txt"
             android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/too_small_size"
             android:layout_marginLeft="@dimen/small_size"
             android:textSize="12sp"
             android:text="فشار" />
@@ -98,8 +100,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/city_pollution_rate_txt"
-            android:layout_centerHorizontal="true"
             android:layout_marginLeft="@dimen/small_size"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="80dp"
             android:textSize="12sp"
             android:text="رطوبت" />
 
@@ -116,7 +119,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/hu_txt"
-            android:layout_centerHorizontal="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="80dp"
             android:layout_marginLeft="@dimen/small_size"
             android:textSize="12sp"
             android:text="سرعت باد" />

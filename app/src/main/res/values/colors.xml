@@ -4,4 +4,10 @@
     <color name="colorPrimaryDark">#5FC9DA</color>
     <color name="colorAccent">#ACE6F2</color>
     <color name="BabyBlue">#89CFF0</color>
+
+
+    <color name="faceYellow">#FDD74B</color>
+    <color name="faceRed">#FE6A69</color>
+    <color name="faceGreen">#A8E05F</color>
+    <color name="facePerpule">#A87DC0</color>
 </resources>
